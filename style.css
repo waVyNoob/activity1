@@ -1,0 +1,169 @@
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin: 150px;
+    padding:0px;
+    background: whitesmoke;
+    height: 150 vh;
+    
+}
+.clearfix{clear: both;}
+h1 {
+	font-size: 2rem;
+
+}
+h2 {
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	padding: 0.5rem 0;
+} 
+h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: salmon;
+	margin-bottom: 1rem;
+}
+
+p {
+	line-height: 1.5rem;
+}
+li . li {
+	margin-top: 0.5rem;
+}
+a {
+	text-decoration: none;
+	color: interit;
+	font-size: 0.8rem;
+}
+ul {
+	list-style: none;
+}
+
+.profile {
+	text-align: center;
+}
+.profile img{
+	border-radius: 50%;
+	width: 5rem;
+	height: 5rem;
+}
+
+.profile p{
+	color: #888;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+
+.contact header{
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.contact li{
+
+	text-align: right;
+	text-transform: uppercase;
+	padding: 1rem;
+	color: #888;
+	border-bottom: 1px solid #888;
+	font-size: 0.12rem;
+}
+
+.professional .profile header{
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-2{
+
+	grid-template-columns: 40% 1fr;
+	grid-gap: 6rem;
+	background-color: white;
+	padding: 3rem;
+}
+.intro{
+	grid-template-columns: 40% 1fr;
+	grid-gap: 6rem;
+	background-color: white;
+	padding: 3rem;
+	text-align: justify;
+}
+.skills header{
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills > ul {
+	display: horizontal;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+}
+.timeline .timeline{
+	text-transform: justify;
+} 
+.event {
+	display: grid;
+	grid-template-columns: 5ch 1fr;
+}
+
+.content {
+	border-left: 1px solid #888;
+	padding-left: 1rem;
+	margin-left: 0.95rem;
+}
+
+.content > h3 . p {
+	margin-bottom: 1rem;
+	color: #333;
+}
+
+.box-outer{
+	display: grid;
+	grid-template-columns: 40% 1fr;
+	grid-gap: 6rem;
+	background-color: white;
+	padding: 3rem;
+}
+.resume-box{
+	grid-template-columns: 40% 1fr;
+	grid-gap: 6rem;
+	background-color: white;
+	padding: 3rem;
+}
+i{
+    color: green;
+    border-radius: 50%;
+    background-color: gray;
+    padding: 3px;
+}
+.description{
+    text-align: center;
+    color: black;
+}
+.box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+} 
+.progress .percent{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    border-radius: 25px;
+    }
